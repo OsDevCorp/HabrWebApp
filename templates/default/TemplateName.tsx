@@ -1,13 +1,19 @@
 import React, { FC } from 'react';
-import './TemplateName.css';
+import './TemplateName.module.scss';
 
-export interface TemplateNameProps {}
+export interface AppProps {}
 
-export const TemplateName: FC<TemplateNameProps> = () => (
-    <div className="templateName">
+export const App: FC<AppProps> =
+    ({
 
-    </div>
-);
+     }) => {
+
+    return (
+        <div className="templateName">
+
+        </div>
+    );
+}
 
 
 
