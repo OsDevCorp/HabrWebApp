@@ -1,0 +1,20 @@
+html[app-theme='light'] {
+    --blue_200: #F1F7FB;
+    --blue_400: #BCE9FF;
+    --blue_600: #548EAA;
+    --red: #EC0101;
+    --green: #02B009;
+    --purple: #FC00F2;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+html[app-theme='dark'] {
+    --blue_200: #F1F7FB;
+    --blue_400: #BCE9FF;
+    --blue_600: #548EAA;
+    --red: #EC0101;
+    --green: #02B009;
+    --purple: #FC00F2;
+    --white: #FFFFFF;
+    --black: #000000;
+}
