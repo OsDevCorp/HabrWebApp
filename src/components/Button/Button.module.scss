@@ -1,0 +1,21 @@
+.button {
+    background-color: var(--blue_600);
+    border-radius: 1rem;
+    color: var(--white);
+    font-family: "Roboto Thin", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1.75rem;
+    border: 0;
+    box-shadow: 0 6px 4px var(--blue_600_sh);
+    &:active {
+        transform: translateY(2px);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    }
+    &:disabled {
+        transform: none;
+        box-shadow: none;
+        background-color: var(--blue_600_db);
+    }
+}
+
